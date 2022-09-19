@@ -9,11 +9,11 @@
 'use strict';
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types'
 import {
     requireNativeComponent,
     View,
     Platform,
-    ViewPropTypes,
     StyleSheet,
     Image
 } from 'react-native';
